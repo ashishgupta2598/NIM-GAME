@@ -1,0 +1,1 @@
+kindly put this folder into F Drive of your PC otherwise the images will not dilspay.

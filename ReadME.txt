@@ -1,0 +1,1 @@
+kindly put Nim game named folder into F Drive of your PC otherwise the images will not dilspay.
