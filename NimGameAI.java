@@ -70,17 +70,17 @@ public class NimGameAI extends JFrame implements ActionListener
        j4.setBackground(Color.black);
     
        
-       img1=new ImageIcon("5.jpg");
+       img1=new ImageIcon("Nim Game\\5.jpg");
        lk1=new JLabel(img1);
        lk1.setBounds(010,150,271,171);
        j4.add(lk1);
        
-       img2=new ImageIcon("4.jpg");
+       img2=new ImageIcon("Nim Game\\4.jpg");
        lk2=new JLabel(img2);
        lk2.setBounds(520,150,271,171);
        j4.add(lk2);
        
-       img3=new ImageIcon("F:\\Nim Game\\3.jpg");
+       img3=new ImageIcon("Nim Game\\3.jpg");
        lk3=new JLabel(img3);
        lk3.setBounds(1050,150,271,171);
        j4.add(lk3);
@@ -96,12 +96,12 @@ public class NimGameAI extends JFrame implements ActionListener
        setSize(1980,1200);
        setDefaultCloseOperation(EXIT_ON_CLOSE);
        
-        im[0]=new ImageIcon("F:\\Nim Game\\0.jpg");
-        im[1]=new ImageIcon("F:\\Nim Game\\1.jpg");
-        im[2]=new ImageIcon("F:\\Nim Game\\2.jpg");
-        im[3]=new ImageIcon("F:\\Nim Game\\3.jpg");
-        im[4]=new ImageIcon("F:\\Nim Game\\4.jpg");
-        im[5]=new ImageIcon("F:\\Nim Game\\5.jpg");
+        im[0]=new ImageIcon("Nim Game\\0.jpg");
+        im[1]=new ImageIcon("Nim Game\\1.jpg");
+        im[2]=new ImageIcon("Nim Game\\2.jpg");
+        im[3]=new ImageIcon("Nim Game\\3.jpg");
+        im[4]=new ImageIcon("Nim Game\\4.jpg");
+        im[5]=new ImageIcon("Nim Game\\5.jpg");
     
    }  // constructors
    int aiCounter=0;
