@@ -317,13 +317,13 @@ public class NimGameAI extends JFrame implements ActionListener
                        
                if(radno==1)
                {
-                   System.out.println("Boss*******IN rad1 and k: "+k);
+                   
                    if(cp==0)
                    { 
                       k=rn.nextInt((p))+min;
                    }
                    
-                   System.out.println(radno+"  i am in 1");
+                   
                    this.artificial();
                    
                    if(k==1)
@@ -342,7 +342,7 @@ public class NimGameAI extends JFrame implements ActionListener
                    if(k==2)
                    {
                    //    radno=rn.nextInt((p))+min;
-                   System.out.println(radno+"he i am in 2");
+                   
                        count++;
                        a=2;
                       for(int i=0;i<5;i++)
@@ -357,7 +357,6 @@ public class NimGameAI extends JFrame implements ActionListener
                    if(k==3)
                    {
                      //radno=rn.nextInt((p))+min;
-                     System.out.println(radno+"he i am in 3");
                        count++;
                        a=3;
                       for(int i=0;i<5;i++)
@@ -372,7 +371,6 @@ public class NimGameAI extends JFrame implements ActionListener
                    if(k==4)
                    {
                     //radno=rn.nextInt((p))+min;
-                    System.out.println(radno+"he i am in 4");
                        count++;
                        a=4;
                       for(int i=0;i<5;i++)
@@ -387,7 +385,6 @@ public class NimGameAI extends JFrame implements ActionListener
                       if(k==5)
                    {
                     //   radno=rn.nextInt((p))+min;
-                       System.out.println(radno+"he i am in 5");
                        count++;
                        a=5;
                       for(int i=0;i<5;i++)
@@ -417,14 +414,12 @@ public class NimGameAI extends JFrame implements ActionListener
                {
                    if(cp==0)
                    {
-                     System.out.println("Boss*******IN rad2 and k: "+k);
                     k=rn.nextInt((q))+min;
                    }
                     this.artificial();
                    if(k==1)
                    {
                       
-                   System.out.println(radno+"he i am in 1");
                        count++;
                        b=1;
                       for(int i=0;i<4;i++)
@@ -439,7 +434,6 @@ public class NimGameAI extends JFrame implements ActionListener
                    if(k==2)
                    {
                      //  radno=rn.nextInt((q))+min;
-                   System.out.println(radno+"he i am in 2");
                        count++;
                        b=2;
                       for(int i=0;i<4;i++)
@@ -454,7 +448,6 @@ public class NimGameAI extends JFrame implements ActionListener
                    if(k==3)
                    {
                        //radno=rn.nextInt((q))+min;
-                   System.out.println(radno+"he i am in 3");
                        count++;
                        b=3;
                       for(int i=0;i<4;i++)
@@ -469,7 +462,6 @@ public class NimGameAI extends JFrame implements ActionListener
                    if(k==4)
                    {
                        //radno=rn.nextInt((q))+min;
-                   System.out.println(radno+"he i am in 4");
                        count++;
                        b=4;
                       for(int i=0;i<4;i++)
@@ -499,13 +491,11 @@ public class NimGameAI extends JFrame implements ActionListener
                    if(cp==0)
                    {
                    k=rn.nextInt((r))+min;
-                       System.out.println("Boss*******IN rad3 and k: "+k);
                    }
                    this.artificial();
                    if(k==1)
                    {
                        
-                   System.out.println(radno+"he i am in 3");
                        count++;
                        c=1;
                       for(int i=0;i<3;i++)
@@ -520,7 +510,6 @@ public class NimGameAI extends JFrame implements ActionListener
                    if(k==2)
                    {
                     //   radno=rn.nextInt((r))+min;
-                   System.out.println(radno+"he i am in 2");
                        count++;
                        c=2;
                       for(int i=0;i<3;i++)
@@ -535,7 +524,6 @@ public class NimGameAI extends JFrame implements ActionListener
                    if(k==3)
                    {
                       // radno=rn.nextInt((r))+min;
-                   System.out.println(radno+"he i am in 3");
                        count++;
                        c=3;
                       for(int i=0;i<3;i++)
@@ -774,7 +762,6 @@ public class NimGameAI extends JFrame implements ActionListener
              for(int m=0;m<q;m++)
              {
                  jcb1.addItem(i[m]);
-                 System.out.println("Value of m in B is "+m);
                  
              }     
                  //b=0;     
