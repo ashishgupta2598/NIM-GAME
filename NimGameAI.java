@@ -70,12 +70,12 @@ public class NimGameAI extends JFrame implements ActionListener
        j4.setBackground(Color.black);
     
        
-       img1=new ImageIcon("F:\\Nim Game\\5.jpg");
+       img1=new ImageIcon("5.jpg");
        lk1=new JLabel(img1);
        lk1.setBounds(010,150,271,171);
        j4.add(lk1);
        
-       img2=new ImageIcon("F:\\Nim Game\\4.jpg");
+       img2=new ImageIcon("4.jpg");
        lk2=new JLabel(img2);
        lk2.setBounds(520,150,271,171);
        j4.add(lk2);
