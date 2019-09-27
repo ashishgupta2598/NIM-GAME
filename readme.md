@@ -9,7 +9,7 @@ Follow Below for More information and working. Also visit .ppt and .pptx files.
 ## Introduction
 Nim is a mathematical game of strategy in which two players take turns removing objects from distinct heaps. On each turn, a player must remove at least one object, and may remove any number of objects provided they all come from the same heap. The goal of the game is to be the player who removes the last object.
 Our Game is designed to be played human vs Computer.
-The Game is GUI is made with Java Swings.
+The Game GUI is made with Java Swings.
 
 ## DESCRIPTION
 We have a game in which we have 3 sets 
@@ -20,8 +20,8 @@ We have a game in which we have 3 sets
   You have to pick the stick from one of the set .
   You can pick as many sticks as you want but at a
   time from only one set .
-            Winner of the game will be the one who will pick
-   up the last remaining  sticks.
+  Winner of the game will be the one who will pick
+  up the last remaining  sticks.
 
   Either of the computer or user can start the game.
  
@@ -29,7 +29,7 @@ We have a game in which we have 3 sets
  ### Case1:Winning Condition 
  Computer knows that whatever human player choose will make the human to lose
  
-1.If in any  2  sets number of sticks are equal and the remaining set is empty then pick the number of sticks same as the other player or just follow the other player.
+1.If in any 2 sets number of sticks are equal and the remaining set is empty then pick the number of sticks same as the other player or just follow the other player.
 
 2.If there is  a pattern of 1 stick , 2 sticks , 3 sticks in the sets then do same as the point 1.
 
